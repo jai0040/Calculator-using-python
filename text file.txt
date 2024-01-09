@@ -1,0 +1,13 @@
+This code takes a mathematical equation as user input, evaluates it, and then prints the result. The `eval()` function is used to execute the entered expression. 
+However, be cautious with user input to avoid security risks associated with using `eval()`.
+
+1 => equation = input("Enter an equation"): This line prompts the user to enter a mathematical equation. 
+The input() function is used to take user input, and the entered equation is stored in the variable equation.
+
+2=> print(eval(equation)): The entered equation, stored in the equation variable, is then passed to the eval() function. 
+The eval() function evaluates the expression and returns the result. Finally, the result is printed using the print() function.
+
+It's important to note that using eval() can be risky if the input is not controlled, as it can execute arbitrary code. 
+In this case, since the user is prompted to enter an equation, it should be used cautiously to avoid potential security issues. 
+Additionally, it assumes that the user provides a valid mathematical expression.
+
